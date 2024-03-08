@@ -10,7 +10,12 @@
 
             <Button x:Name="ShowPopupButton" Text="Show popup" Clicked="ShowPopupButton_Clicked" />
 
-        </VerticalStackLayout>
+        <Button x:Name="ShowPopupButton1" Text="Show popup 1" Clicked="ShowPopupButton1_Clicked" />
+
+        <Button x:Name="ShowPopupButton2" Text="Show popup 2" Clicked="ShowPopupButton2_Clicked" />
+        <Button x:Name="ShowPopupButton3" Text="Show popup 3" Clicked="ShowPopupButton3_Clicked" />
+
+    </VerticalStackLayout>
 
 
 </ContentPage>
