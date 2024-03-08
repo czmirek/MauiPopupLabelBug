@@ -46,6 +46,22 @@ namespace MauiPopupTest
             await popup.Load();
 
         }
+
+        private async void ShowPopupButton2Workaround_Clicked(object sender, EventArgs e)
+        {
+            TestPopup2workaround popup = new TestPopup2workaround();
+            Application.Current!.MainPage!.ShowPopup(popup);
+
+            await popup.Load();
+        }
+
+        private async void ShowPopupButton3Workaround_Clicked(object sender, EventArgs e)
+        {
+            TestPopup3workaround popup = new TestPopup3workaround();
+            Application.Current!.MainPage!.ShowPopup(popup);
+
+            await popup.Load();
+        }
     }
 
 }

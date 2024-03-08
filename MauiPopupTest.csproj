@@ -64,6 +64,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="TestPopup2workaround.xaml.cs">
+	    <DependentUpon>TestPopup2workaround.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="TestPopup3workaround.xaml.cs">
+	    <DependentUpon>TestPopup3workaround.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="TestPopup3.xaml.cs">
 	    <DependentUpon>TestPopup3.xaml</DependentUpon>
 	  </Compile>
@@ -79,6 +85,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="TestPopup2workaround.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TestPopup3workaround.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="TestPopup3.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

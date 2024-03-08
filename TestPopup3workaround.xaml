@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<toolkit:Popup
+    x:Class="MauiPopupTest.TestPopup3workaround"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiPopupTest"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Color="Transparent">
+
+    <Grid BackgroundColor="BlanchedAlmond" RowDefinitions="Auto">
+        <Border
+            x:Name="RootBorder"
+            Padding="20"
+            SizeChanged="RootBorder_SizeChanged"           
+            BackgroundColor="White">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="12" />
+            </Border.StrokeShape>
+            <StackLayout Orientation="Vertical">
+                <ActivityIndicator
+                    x:Name="LoadingActivityIndicator"
+                    HeightRequest="50"
+                    HorizontalOptions="Center"
+                    IsRunning="true"
+                    IsVisible="true"
+                    WidthRequest="50" />
+                <Label x:Name="LabelContent" LineBreakMode="WordWrap" BackgroundColor="Red" />
+            </StackLayout>
+        </Border>
+    </Grid>
+
+
+</toolkit:Popup>

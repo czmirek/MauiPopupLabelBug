@@ -14,6 +14,9 @@
 
         <Button x:Name="ShowPopupButton2" Text="Show popup 2" Clicked="ShowPopupButton2_Clicked" />
         <Button x:Name="ShowPopupButton3" Text="Show popup 3" Clicked="ShowPopupButton3_Clicked" />
+        <Button x:Name="ShowPopupButton2Workaround" Text="Show popup 2 workaround" Clicked="ShowPopupButton2Workaround_Clicked" />
+        <Button x:Name="ShowPopupButton3Workaround" Text="Show popup 3 workaround" Clicked="ShowPopupButton3Workaround_Clicked" />
+
 
     </VerticalStackLayout>
 
